@@ -19,7 +19,6 @@ spec:
   enableFeatures: []
   externalLabels: {}
   image: registry.cn-hangzhou.aliyuncs.com/lvbibir/prometheus:v2.32.1
-  imagePullPolicy: IfNotPresent
   nodeSelector:
     kubernetes.io/os: linux
   podMetadata:
