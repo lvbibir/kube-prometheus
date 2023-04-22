@@ -11,6 +11,7 @@ metadata:
   namespace: monitoring
 spec:
   image: registry.cn-hangzhou.aliyuncs.com/lvbibir/alertmanager:v0.23.0
+  imagePullPolicy: IfNotPresent
   nodeSelector:
     kubernetes.io/os: linux
   podMetadata:

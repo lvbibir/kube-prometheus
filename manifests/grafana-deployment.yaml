@@ -30,6 +30,7 @@ spec:
       containers:
       - env: []
         image: registry.cn-hangzhou.aliyuncs.com/lvbibir/grafana:8.3.3
+        imagePullPlicy: IfNotPresent
         name: grafana
         ports:
         - containerPort: 3000
